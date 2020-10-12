@@ -12,5 +12,6 @@ php -d memory_limit=-1 composer.phar require  staudenmeir/eloquent-has-many-deep
 php -d memory_limit=-1 composer.phar require  unisharp/laravel-filemanager
 php -d memory_limit=-1 composer.phar require  laravel/ui
 php -d memory_limit=-1 composer.phar require  livewire/livewire
+php -d memory_limit=-1 composer.phar require  cknow/laravel-money
 
 php -d memory_limit=-1 composer.phar require  --dev barryvdh/laravel-debugbar
