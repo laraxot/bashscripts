@@ -1,3 +1,4 @@
+#!/bin/sh
 git filter-branch -- --all
 git submodule foreach git filter-branch -- --all
 git gc --auto --aggressive

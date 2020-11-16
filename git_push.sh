@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 git add --all
 git commit -m "up" || true
 git submodule foreach git add --all

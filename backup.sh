@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 day=$(date +"%Y%m%d-%H%M")
 curr_dir=${PWD##*/}
 bak_dir="../_backup/"

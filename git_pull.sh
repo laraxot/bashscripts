@@ -1,3 +1,4 @@
+#!/bin/sh
 git pull --progress -v --no-rebase "origin"
 git pull --recurse-submodules
 git submodule update --remote --recursive

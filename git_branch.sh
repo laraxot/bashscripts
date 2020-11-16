@@ -1,3 +1,4 @@
+#!/bin/sh
 git config --global core.autocrlf true
 git config --global core.safecrlf false
 git config --global submodule.recurse true
