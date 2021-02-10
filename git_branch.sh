@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+#!/bin/sh
+>>>>>>> 68e2d1ea9769cda5415d3099f447d1b4e5b4afbe
 git config --global core.autocrlf true
 git config --global core.safecrlf false
 git config --global submodule.recurse true

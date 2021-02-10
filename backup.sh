@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/bin/bash
 day=$(date +"%Y%m%d-%H%M")
 curr_dir=${PWD##*/}
@@ -15,4 +16,23 @@ tar cvf $tar --exclude=.git --exclude=vendor --exclude=bc --exclude=node_modules
 #cd $bak_dir
 #tar xvf backup.tar
 
+=======
+#!/bin/sh
+day=$(date +"%Y%m%d-%H%M")
+curr_dir=${PWD##*/}
+bak_dir="../_backup/"
+tar="$bak_dir$curr_dir-$day.tar"
+curr_dir="../$curr_dir"
+echo "tar : $tar"
+echo "from : $curr_dir"
+echo "to : $bak_dir"
+mkdir -p $bak_dir
+#mkdir -p $bak_dir/public_html
+#cmd= "$curr_dir $bak_dir /e /w:0 /r:0 "
+#echo $cmd 
+tar cvf $tar --exclude=.git --exclude=vendor --exclude=bc --exclude=node_modules --exclude=debugbar --exclude=storage $curr_dir/* 
+#cd $bak_dir
+#tar xvf backup.tar
+
+>>>>>>> 68e2d1ea9769cda5415d3099f447d1b4e5b4afbe
    

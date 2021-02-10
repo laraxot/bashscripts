@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/bin/bash
+=======
+#!/bin/sh
+>>>>>>> 68e2d1ea9769cda5415d3099f447d1b4e5b4afbe
 git add --all
 git commit -m "up" || true
 git submodule foreach git add --all
